@@ -1,0 +1,27 @@
+﻿Logistic regression Results roc =0.83 sensitivity =0.6403508771929824 specificity=0.8201298701298702 Precision=0.6171213546566322 Recall=0.5050038491147036
+DECISION TREE-
+Correct Predictions: 1645 False Positives: 123 False Negatives: 342 precision recall f1-score support
+
+       0       0.81      0.92      0.86      1540
+       1       0.65      0.40      0.50       570
+
+accuracy                           0.78      2110
+macro avg 0.73 0.66 0.68 2110 weighted avg 0.76 0.78 0.76 2110 ROC AUC: 0.80816
+RANDOM FOREST:-
+Correct Predictions: 1584 False Positives: 49 False Negatives: 477 ROC AUC: 0.80924 precision recall f1-score support
+
+       0       0.76      0.97      0.85      1540
+       1       0.65      0.16      0.26       570
+
+accuracy                           0.75      2110
+macro avg 0.71 0.57 0.56 2110 weighted avg 0.73 0.75 0.69 2110 Training accuracy: 0.7640723430197114 Testing accuracy: 0.7507109004739336
+XGBOOST:-
+Training accuracy: 0.7943507417191628 Testing accuracy: 0.7781990521327015 precision recall f1-score support
+
+       0       0.82      0.88      0.85      1540
+       1       0.61      0.49      0.55       570
+
+accuracy                           0.78      2110
+macro avg 0.72 0.69 0.70 2110 weighted avg 0.77 0.78 0.77 2110 Correct Predictions: 1642 False Positives: 179 False Negatives: 289 ROC AUC: 0.8179
+
+​
